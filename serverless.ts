@@ -70,7 +70,7 @@ const serverlessConfiguration: AWS = {
             ]
         },
         createuserpool: {
-            handler: './src/functions/sign in-up/signup.CreateUser',
+            handler: './src/functions/cignito/signup.CreateUser',
             events: [
                 {
                     http: {
